@@ -50,7 +50,7 @@ void test_move_to_front_sort()
 
 		cout << "Before sorting array of size " << i << endl;
 		print_array(arr);
-		clock_t begin = clock();
+		clock_t begin = clock(); 
 
 		move_to_front_sort(arr);
 		
